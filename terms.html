@@ -8,25 +8,137 @@
         <link rel="icon" href="./favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
         <style type="text/css">
             body{
                 margin: 0;
                 padding: 0;
-                font-family: poppins;
+                font-family: sans-serif;
+                color: #415161;
             }
 
             a{
                 text-decoration: none;
                 color: inherit;
             }
+            .page-flow{
+                width: 45%;
+                margin: 0 auto;
+            }
+            h1,h2,h3,h4,h5,h6{
+                color: #272a58;
+                font-family: roboto;
+            }
             #page-caption{
-                text-align: center;
+                text-align: left;
+            }
+            .quot::before{
+                content: "\201F";
+            }
+            .quot::after{
+                content: "\201D";
+            }
+
+            .section{
+                margin-bottom: 60px;
+            }
+
+            .section .block{
+                margin-bottom: 16px;
+                line-height: 1.4;
+            }
+            ol>li{
+                margin-bottom: 16px;
+                line-height: 1.4;
+            }
+            @media only screen and (max-width:840px){
+                .page-flow{
+                    width: 90%;
+                }
+                #page-caption{
+                    font-size: 24px;
+                }
+                h2{
+                    font-size: 20px;
+                }
             }
         </style>
     </head>
     <body>
-        <h1 id="page-caption">Terms of Service</h1>
+        <div class="page-flow">
+            <h1 id="page-caption">Krypto Bot - Terms of Service</h1>
+
+            <div class="section general">
+                <h2 class="caption">General</h2>
+                <div class="block">
+                    These terms of service (the <b class="quot">Agreement</b>) constitute the agreement between you 
+                    (hereinafter referred to as <b class="quot">you</b> or <b class="quot">your</b>) and 
+                    Krypto Bot operators (as defined below, hereinafter referred to as <b class="quot">we</b>, <b class="quot">us</b> and <b class="quot">our</b>) 
+                    governing your use of this Site/App, your Account and the Services (as defined below).
+                </div>
+
+                <div class="block">
+                    Before using the Services, please read carefully all of the terms and conditions of this Agreement, 
+                    Important Information About Use Of The Krypto Bot Platform And Risk Disclaimer (<b class="quot">Disclaimer</b>) 
+                    and each of the other agreements that apply to you.
+                </div>
+
+                <div class="block">
+                    By opening and using an Account, 
+                    you agree to comply with all of the terms and conditions in this Agreement 
+                    and the following policies: Privacy Policy, Disclaimer, and any other agreements that apply to you
+                </div>
+
+                <div class="block">
+                    We may amend, modify, update and change any of the terms and conditions 
+                    contained in the Agreement from time to time. 
+                    We will notify you of any amendment, modification, update and change by 
+                    publishing a new version of the Agreement here, or by email. 
+                    Any new version of the Agreement will take effect immediately upon publication on the Site or the App, 
+                    and your use of the Site, the App and/or the Services after any changes to this Agreement will be deemed 
+                    to constitute your acceptance of the new version of the Agreement.
+                </div>
+
+                <div class="block">
+                    If you do not agree with any changes to this Agreement, 
+                    you must cease using the Services, 
+                    terminate to use your account without cost or penalty, 
+                    if any liabilities or fees that you may have owed us so far have been paid off. 
+                    This Agreement will continue to apply to your previous use of our services. 
+                    If you continue to use the Services, it shall be deemed that you accept and agree 
+                    to be bound by the revised or new version of the Agreement.
+                </div>
+            </div>
+            <!-- /General section -->
+
+            <div class="section eligibility">
+                <h2 class="caption">Eligibility</h2>
+                <div class="block">
+                    In order to use the Services, you must meet the following eligibility:
+                </div>
+
+                <ol>
+                    <li>
+                        If you are an individual, you must be at least 18 years old, to open an Account and use the Services.
+                    </li>
+                    <li>
+                        You are not in, under the control of, or a national or resident of 
+                        Afghanistan, Cuba, Iran, North Korea, Syria, and Ontario of Canada 
+                        (each a <b class="quot">Prohibited Jurisdiction</b>), or if you are a person on the economic sanctions 
+                        lists as published from time to time by applicable authorities (a <b class="quot">Prohibited Person</b>).
+                    </li>
+                    <li>
+                        You shall not supply any acquired or stored digital asset or Service to a Prohibited Jurisdiction, 
+                        a national or resident of a Prohibited Jurisdiction, or a Prohibited Person. 
+                    </li>
+                    <li>
+                        Krypto Bot operators, may cancel and/or suspend your Account and/or block transactions immediately, 
+                        with or without notice, in the event a state, province, territory or country becomes a Prohibited Jurisdiction, 
+                        or we determine, in our sole discretion, that you do not meet the eligibility requirements set forth in the Agreement.
+                    </li>
+                </ol>
+            </div>
+        </div>
     </body>
 </html>
